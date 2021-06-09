@@ -2,7 +2,7 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   "title": "青椒小店",
   "description": "一个爱分享的小店",
-  "dest": "public",
+  "dest": "dist",
   "base": "/",
   "head": [
     [
