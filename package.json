@@ -1,29 +1,20 @@
 {
-  "name": "vuepress-blog",
+  "name": "my_blog",
   "version": "1.0.0",
-  "description": "this is a blog",
-  "main": "index.js",
+  "author": "wb",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev . --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhangjianliu/vuePress-blog.git"
-  },
-  "keywords": [
-    "blog"
-  ],
-  "author": "zjl",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhangjianliu/vuePress-blog/issues"
-  },
-  "homepage": "https://github.com/zhangjianliu/vuePress-blog#readme",
   "devDependencies": {
-    "@vuepress/theme-blog": "^2.3.3",
-    "vuepress": "^1.8.2"
-  }
+    "vuepress": "1.5.4",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+    "vue-class-component": "^7.2.3"
+  },
+  "description": ""
 }
