@@ -1,11 +1,12 @@
 ---
 home: true
-heroText: LVYIYI
+all: true
+heroText: 愿你保持初心和善良,笑里尽是温暖与坦荡
 tagline: 最累的时候，家人就是你最好的归宿
 bgImageStyle: {
-  height: '450px'
+  height: '100vh'
 }
-isShowTitleInHome: true
+isShowTitleInHome: false
 features:
 - title: Yesterday
   details: 免费分享技术视频
