@@ -161,7 +161,7 @@
         return this.$themeConfig.keyPage && this.$themeConfig.keyPage.absoluteEncryption === true
       },
       cover() {
-        return this.$themeConfig.covers[new Date().getDay()] || "https://pan.zealsay.com/zealsay/cover/1.jpg"
+        return this.$themeConfig.covers[new Date().getDay()] || "https://pan.zealsay.com/zealsay/cover/8.jpg"
       },
       pageCover() {
         return this.$page.frontmatter.cover || this.$themeConfig.covers[new Date().getDay()] || "https://pan.zealsay.com/zealsay/cover/1.jpg"

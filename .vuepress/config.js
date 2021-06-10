@@ -119,6 +119,7 @@ module.exports = {
       }
     ],
     "covers": [
+      'https://pan.zealsay.com/zealsay/cover/8.jpg',
       'https://pan.zealsay.com/zealsay/cover/7.jpg',
       'https://pan.zealsay.com/zealsay/cover/1.jpg',
       'https://pan.zealsay.com/zealsay/cover/2.jpg',
