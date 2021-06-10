@@ -73,7 +73,7 @@ publish: false
 4. 组件
 - `mavon-editor` 一款优秀的`markdown`编辑器
 - `sweetalert2` 优秀弹窗插件
--  `vue-cropper`图片裁剪插件
+- `vue-cropper`图片裁剪插件
 - `vue-perfect-scrollbar` 滚动条样式美化
 - `vue-scroll-reveal` 内容过渡动画
 - `vue-typed-js` 打字机效果插件

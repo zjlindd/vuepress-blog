@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
+    "deploy": "bash deploy.sh",
     "upcdn": "vuepress build . && node ./scripts/upcdn.js"
   },
   "devDependencies": {
