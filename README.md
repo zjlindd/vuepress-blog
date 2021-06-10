@@ -1,11 +1,11 @@
 ---
-home: false
+home: true
 heroText: LVYIYI
-tagline: 学习视频
+tagline: 最累的时候，家人就是你最好的归宿
 bgImageStyle: {
   height: '450px'
 }
-isShowTitleInHome: false
+isShowTitleInHome: true
 features:
 - title: Yesterday
   details: 免费分享技术视频

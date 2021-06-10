@@ -34,23 +34,6 @@ module.exports = {
         "text": "主页",
         "link": "/",
         "icon": "reco-home"
-      },
-      {
-        "text": "时间线",
-        "link": "/timeline/",
-        "icon": "reco-date"
-      },
-      { "text": '留言板', "link": '/blogs/views/messageBoard.html', "icon": 'reco-suggestion' },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/wangxiaoer5200",
-            "icon": "reco-github"
-          }
-        ]
       }
     ],
     sidebar,
@@ -65,22 +48,13 @@ module.exports = {
         "text": "标签索引"
       }
     },
-    "friendLink": [
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
     "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "indd",
-    "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
-    "startYear": "2020"
+    "authorAvatar": "/logo.jpg",
+    "startYear": "2017"
   },
   "markdown": {
     "lineNumbers": true

@@ -1,9 +1,9 @@
 const { createSideBarConfig } = require('./util')
-const TEST_PATH = '/blogs/test'
-const DEMO_PATH = '/blogs/demo'
+const VUE_PATH = '/blogs/vue'
+const JAVASCRIPT_PATH = '/blogs/javascript'
 
 
 module.exports = {
-  [TEST_PATH]: [createSideBarConfig('测试', TEST_PATH)],
-  [DEMO_PATH]: [createSideBarConfig('demo', DEMO_PATH)],
+  [VUE_PATH]: [createSideBarConfig('VUE', VUE_PATH)],
+  [JAVASCRIPT_PATH]: [createSideBarConfig('JAVASCRIPT', JAVASCRIPT_PATH)],
 }
