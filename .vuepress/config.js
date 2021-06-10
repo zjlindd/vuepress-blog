@@ -1,15 +1,13 @@
-const sidebar = require('./siderbar.js');
 module.exports = {
   "title": "青椒小店",
-  "description": "一个爱分享的小店",
+  "description": "分享学习视频，助力成长！",
   "dest": "dist",
-  "base": "/",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/logo.jpg"
+        "href": "https://pan.zealsay.com/blog/favicon.ico"
       }
     ],
     [
@@ -29,41 +27,69 @@ module.exports = {
           })();
         `] //百度统计
   ],
-  "plugins": ["@vuepress-reco/vuepress-plugin-comments", "vuepress-plugin-meting"],
-  "theme": "reco",
+  "locales": {
+    "/": {
+      "lang": 'zh-CN'
+    }
+  },
   "themeConfig": {
-    "mode": 'light',
-    "subSidebar": 'auto',
-    "valineConfig": {
-      "appId": 'aCSipIDPBNQTreNNNr4bT5R4-gzGzoHsz',
-      "appKey": 'zuQELzuRINaCxHgIozNrnwKO',
-    },
     "nav": [
       {
         "text": "主页",
         "link": "/",
         "icon": "reco-home"
+      },
+      {
+        "text": "时间轴",
+        "link": "/timeline/",
+        "icon": "reco-date"
+      },
+      {
+        "text": "关于",
+        "link": "/about/",
+        "icon": "reco-account"
       }
     ],
-    sidebar,
     "type": "blog",
+    "sidebar": false,
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "目录索引"
+        "text": "博客"
       },
       "tag": {
         "location": 3,
-        "text": "标签索引"
+        "text": "标签"
       }
     },
-    "logo": "/logo.jpg",
+    "valineConfig": {
+      "appId": "xxx",// your appId
+      "appKey": "xxx", // your appKey
+      "avatar": "", //
+      "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
+      "requiredFields": ['nick', 'mail'], //设置必填项
+    },
+    "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "indd",
-    "authorAvatar": "/logo.jpg",
-    "startYear": "2017",
+    "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
+    "startYear": "2020",
+    "info": "一个爱复制粘贴的家伙",
+    "socials":{
+      "github" : "https://github.com/GodLikeZeal", //github
+      "gitlub" : false, //gitlub
+      "gitee" : "https://gitee.com/GodLikeZeal", //gitee
+      "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
+      "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+      "toutiao" : false, //知乎
+      "juejin": "https://juejin.im/user/2796746683716990", //掘金
+      "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
+      "csdn" : false, //CSDN
+      "wechat" : "你的微信", //微信
+      "qq" : "你的QQ" //QQ
+    },
     "mottos": [{
       "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
       "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."
@@ -104,6 +130,15 @@ module.exports = {
     "codeTheme": "tomorrow"
   },
   "markdown": {
-    "lineNumbers": true
-  }
+    "lineNumbers": false
+  },
+  // configureWebpack: (config, isServer) => {
+  //   if (!isServer) {
+  //     // 修改客户端的 webpack 配置
+  //     config.output.publicPath = config.mode === 'production'
+  //       ? 'https://pan.zealsay.com/blog/' // sample/essays 打包的默认路径为 ‘_nuxt’ 或者可以指定cdn 域名
+  //       : '/';
+  //     config.output.filename = "assets/js/[name].js";
+  //   }
+  // }
 }

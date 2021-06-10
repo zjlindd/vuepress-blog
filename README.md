@@ -1,17 +1,19 @@
 ---
 home: true
 all: true
-heroText: 愿你保持初心和善良,笑里尽是温暖与坦荡
-tagline: 最累的时候，家人就是你最好的归宿
+heroText: 愿你保持初心和善良,笑里尽是温暖与坦荡。
+tagline: A simple and beautiful vuepress blog theme.
 bgImageStyle: {
   height: '100vh'
 }
 isShowTitleInHome: false
+actionText: Guide
+actionLink: /views/other/guide
 features:
 - title: Yesterday
-  details: 免费分享技术视频
+  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
 - title: Today
-  details: 基于分享、感恩收获
+  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
 - title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个项目更好的成长
+  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 ---
