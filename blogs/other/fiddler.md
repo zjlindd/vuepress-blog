@@ -136,7 +136,7 @@ Fiddler开始工作了，抓到的数据包就会显示在列表里面，下面�
 **<br />Composer允许自定义请求发送到服务器，可以手动创建一个新的请求，也可以在会话表中，拖拽一个现有的请求<br />
 <br />Parsed模式下你只需要提供简单的URLS地址即可（如下图，也可以在RequestBody定制一些属性，如模拟浏览器User-Agent）
 
-![600-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618300511998-dc5ed805-51f2-4d80-81e2-cb7027e77d63.png#align=left&display=inline&height=625&margin=%5Bobject%20Object%5D&name=600-1.png&originHeight=833&originWidth=894&size=45374&status=done&style=none&width=671)<br />
+![600-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618300511998-dc5ed805-51f2-4d80-81e2-cb7027e77d63.png)<br />
 
 <a name="ckX2j"></a>
 #### 7、Filters 请求过滤规则
@@ -150,7 +150,8 @@ Fiters 是过滤请求用的，左边的窗口不断的更新，当你想看你�
 <br />Host 指定显示某个域名下的会话：![702.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378374772-3668295b-665f-438b-a36b-18e0e946eb7c.png#align=left&display=inline&height=180&margin=%5Bobject%20Object%5D&name=702.png&originHeight=180&originWidth=627&size=6874&status=done&style=none&width=627)<br />如果框框为黄色（如图），表示修改未生效，点击红圈里的文字即可!
 
 <a name="wgkPk"></a>
-#### 8、Timeline 请求响应时间![800-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378412410-40d22c8e-27c2-4e1e-b7b7-0ad4ddd537b9.png#align=left&display=inline&height=199&margin=%5Bobject%20Object%5D&name=800-1.png&originHeight=199&originWidth=726&size=8359&status=done&style=none&width=726)
+![](https://pan.zealsay.com/mweb/2019091715687134867697.jpg)
+#### 8、Timeline 请求响应时间![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378412410-40d22c8e-27c2-4e1e-b7b7-0ad4ddd537b9.png#align=left&display=inline&height=199&margin=%5Bobject%20Object%5D&name=800-1.png&originHeight=199&originWidth=726&size=8359&status=done&style=none&width=726)
 <a name="4txbr"></a>
 #### 9、Fiddler 设置解密HTTPS的网络数据
 **<br />Fiddler可以通过伪造CA证书来欺骗浏览器和服务器。Fiddler是个很会装逼的好东西，大概原理就是在浏览器面前Fiddler伪装成一个HTTPS服务器，而在真正的HTTPS服务器面前Fiddler又装成浏览器，从而实现解密HTTPS数据包的目的。
