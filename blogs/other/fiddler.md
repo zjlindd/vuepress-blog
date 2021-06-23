@@ -31,13 +31,15 @@ categories:
 <a name="oDUNE"></a>
 #### 1、开启或关闭抓包功能
 Fiddler想要抓到数据包，要确保Capture Traffic是开启，在“File –> Capture Traffic”。开启后再左下角会有显示，当然也可以直接点击左下角的图标来关闭/开启抓包功能。<br />
-<br />![100-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617861476716-251d6362-0d32-401e-82c7-78b0a20a5b2f.png#align=left&display=inline&height=634&margin=%5Bobject%20Object%5D&name=100-1.png&originHeight=845&originWidth=895&size=102533&status=done&style=none&width=671)<br />
+<br />
+<img width="120" height="120" src="https://cdn.nlark.com/yuque/0/2021/png/2899468/1617861476716-251d6362-0d32-401e-82c7-78b0a20a5b2f.png" referrerpolicy="no-referrer">
 <br />
 
 <a name="DJYIA"></a>
 #### 2、字段说明
 Fiddler开始工作了，抓到的数据包就会显示在列表里面，下面总结了这些都是什么意思？<br />
-<br />![200-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617861464821-50ab9d1f-9df7-49bd-9f2e-19877aab12c7.png#align=left&display=inline&height=425&margin=%5Bobject%20Object%5D&name=200-1.png&originHeight=567&originWidth=867&size=79269&status=done&style=none&width=650)<br />
+<br />
+![200-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617861464821-50ab9d1f-9df7-49bd-9f2e-19877aab12c7.png#align=left&display=inline&height=425&margin=%5Bobject%20Object%5D&name=200-1.png&originHeight=567&originWidth=867&size=79269&status=done&style=none&width=650)<br />
 <br />
 
 
@@ -91,7 +93,8 @@ Fiddler开始工作了，抓到的数据包就会显示在列表里面，下面�
 #### 4、Inspectors 查看数据内容
 **<br />
 <br />Inspectors是用于查看会话的内容，上半部分是请求的内容，下半部分是响应的内容；<br />
-<br />![400-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617862389682-94f7911d-853d-483b-b5f8-d415cbf9cb9e.png#align=left&display=inline&height=547&margin=%5Bobject%20Object%5D&name=400-1.png&originHeight=547&originWidth=757&size=36796&status=done&style=none&width=757)<br />
+<br />
+![400-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617862389682-94f7911d-853d-483b-b5f8-d415cbf9cb9e.png#align=left&display=inline&height=547&margin=%5Bobject%20Object%5D&name=400-1.png&originHeight=547&originWidth=757&size=36796&status=done&style=none&width=757)<br />
 
 <a name="sAPmh"></a>
 #### 5、AutoResponder 允许拦截指定规则的请求
@@ -100,7 +103,8 @@ Fiddler开始工作了，抓到的数据包就会显示在列表里面，下面�
 <br />看下图5步，我将“baidu”这个关键字与我电脑“f:\Users\YukiO\Pictures\boy.jpeg”这张图片绑定了，点击“Save”保存后勾选“Enable rules”，再访问baidu，就会被劫持。<br />
 <br />
 <br />![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1617872324807-100f5ba0-2be2-49b8-b481-c9e5948f2802.png#align=left&display=inline&height=508&margin=%5Bobject%20Object%5D&originHeight=617&originWidth=896&size=0&status=done&style=none&width=737)<br />
-<br />![image.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618298538158-0884eb0f-74b9-4ec5-947e-644b801c2f69.png#align=left&display=inline&height=357&margin=%5Bobject%20Object%5D&name=image.png&originHeight=357&originWidth=1239&size=205502&status=done&style=none&width=1239)<br />这个玩意有很多匹配规则，如：<br />
+<br />
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618298538158-0884eb0f-74b9-4ec5-947e-644b801c2f69.png#align=left&display=inline&height=357&margin=%5Bobject%20Object%5D&name=image.png&originHeight=357&originWidth=1239&size=205502&status=done&style=none&width=1239)<br />这个玩意有很多匹配规则，如：<br />
 <br />
 
 1. 字符串匹配（默认）：只要包含指定字符串（不区分大小写），全部认为是匹配
@@ -144,21 +148,26 @@ Fiters 是过滤请求用的，左边的窗口不断的更新，当你想看你�
 <br />
 <br />
 <br />
-<br />![700-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378319247-5dccba1b-e2e9-4c92-b121-ec80c5190c4f.png#align=left&display=inline&height=563&margin=%5Bobject%20Object%5D&name=700-1.png&originHeight=563&originWidth=758&size=27181&status=done&style=none&width=758)<br />Zone 指定只显示内网（Intranet）或互联网（Internet）的内容：<br />
 <br />
-<br />![701.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378345277-8cf0b38e-7d7a-47bc-9a46-d8a65c543844.png#align=left&display=inline&height=175&margin=%5Bobject%20Object%5D&name=701.png&originHeight=175&originWidth=626&size=5299&status=done&style=none&width=626)<br />
-<br />Host 指定显示某个域名下的会话：![702.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378374772-3668295b-665f-438b-a36b-18e0e946eb7c.png#align=left&display=inline&height=180&margin=%5Bobject%20Object%5D&name=702.png&originHeight=180&originWidth=627&size=6874&status=done&style=none&width=627)<br />如果框框为黄色（如图），表示修改未生效，点击红圈里的文字即可!
+![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378319247-5dccba1b-e2e9-4c92-b121-ec80c5190c4f.png#align=left&display=inline&height=563&margin=%5Bobject%20Object%5D&name=700-1.png&originHeight=563&originWidth=758&size=27181&status=done&style=none&width=758)<br />Zone 指定只显示内网（Intranet）或互联网（Internet）的内容：<br />
+<br />
+<br />
+![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378345277-8cf0b38e-7d7a-47bc-9a46-d8a65c543844.png#align=left&display=inline&height=175&margin=%5Bobject%20Object%5D&name=701.png&originHeight=175&originWidth=626&size=5299&status=done&style=none&width=626)<br />
+<br />Host 指定显示某个域名下的会话：
+![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378374772-3668295b-665f-438b-a36b-18e0e946eb7c.png#align=left&display=inline&height=180&margin=%5Bobject%20Object%5D&name=702.png&originHeight=180&originWidth=627&size=6874&status=done&style=none&width=627)<br />如果框框为黄色（如图），表示修改未生效，点击红圈里的文字即可!
 
 <a name="wgkPk"></a>
 ![](https://pan.zealsay.com/mweb/2019091715687134867697.jpg)
-#### 8、Timeline 请求响应时间![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378412410-40d22c8e-27c2-4e1e-b7b7-0ad4ddd537b9.png#align=left&display=inline&height=199&margin=%5Bobject%20Object%5D&name=800-1.png&originHeight=199&originWidth=726&size=8359&status=done&style=none&width=726)
+#### 8、Timeline 请求响应时间
+![](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378412410-40d22c8e-27c2-4e1e-b7b7-0ad4ddd537b9.png#align=left&display=inline&height=199&margin=%5Bobject%20Object%5D&name=800-1.png&originHeight=199&originWidth=726&size=8359&status=done&style=none&width=726)
 <a name="4txbr"></a>
 #### 9、Fiddler 设置解密HTTPS的网络数据
 **<br />Fiddler可以通过伪造CA证书来欺骗浏览器和服务器。Fiddler是个很会装逼的好东西，大概原理就是在浏览器面前Fiddler伪装成一个HTTPS服务器，而在真正的HTTPS服务器面前Fiddler又装成浏览器，从而实现解密HTTPS数据包的目的。
 
 解密HTTPS需要手动开启，依次点击：
 
-（1）、Tools –> Fiddler Options –> HTTPS；![900-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378514660-ccc89c73-5343-483a-95f6-c8d3841cf0ac.png#align=left&display=inline&height=514&margin=%5Bobject%20Object%5D&name=900-1.png&originHeight=514&originWidth=896&size=54805&status=done&style=none&width=896)
+（1）、Tools –> Fiddler Options –> HTTPS；
+![900-1.png](https://cdn.nlark.com/yuque/0/2021/png/2899468/1618378514660-ccc89c73-5343-483a-95f6-c8d3841cf0ac.png#align=left&display=inline&height=514&margin=%5Bobject%20Object%5D&name=900-1.png&originHeight=514&originWidth=896&size=54805&status=done&style=none&width=896)
 
 （2）、勾选Decrypt HTTPS Traffic
 
