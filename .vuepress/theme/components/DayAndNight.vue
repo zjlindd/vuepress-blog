@@ -1,5 +1,5 @@
 <template>
-  <div id="dayNightSwitch" class="generalWrapper" v-if="false">
+  <div id="dayNightSwitch" class="generalWrapper">
     <a @click="updateMode" class="click">
       <div :class="currentMode === 'dark' ? ['onOff'] : ['onOff', 'daySwitch']">
         <div class="star star1"></div>

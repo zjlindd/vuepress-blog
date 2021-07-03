@@ -69,11 +69,15 @@
     </ModuleTransition>
 
     <ModuleTransition delay="0.32">
-      <Comments v-if="recoShowModule" :isShowComments="shouldShowComments"/>
+      <el-divider></el-divider>
+      <Comments v-if="false" :isShowComments="shouldShowComments"/>
     </ModuleTransition>
 
     <ModuleTransition delay="0.08">
       <SubSidebar v-if="recoShowModule" class="side-bar" />
+    </ModuleTransition>
+    <ModuleTransition delay="0.08">
+      <p>青椒博客 博客内大部分资源收集于网络，若侵犯了您的合法权益，请联系我们删除！</p>
     </ModuleTransition>
   </main>
 </template>

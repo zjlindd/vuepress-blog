@@ -8,5 +8,5 @@ categories:
  - Flutter
 ---
 <template>
-    <my-demo></my-demo>
+    <my-money></my-money>
 </template>
