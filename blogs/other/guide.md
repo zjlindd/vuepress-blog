@@ -1,7 +1,7 @@
 ---
 title: 一个前后端分离的快速开发脚手架
 date: 2020-12-20
-cover: https://pan.zealsay.com/mweb/blog/WechatIMG5.png
+cover: http://lorempixel.com/400/200/city
 tags:
  - java
  - vue

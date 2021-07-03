@@ -1,7 +1,7 @@
 ---
 title: Fiddler是一款免费网络代理调试工具
 date: 2020-12-20
-cover: https://pan.zealsay.com/mweb/blog/WechatIMG5.png
+cover: http://lorempixel.com/400/200/
 tags:
  - fiddler
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Nginx 介绍
 date: 2020-12-20
-cover: https://pan.zealsay.com/mweb/blog/WechatIMG5.png
+cover: http://lorempixel.com/400/200/food
 tags:
  - Nginx
 categories:

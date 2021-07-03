@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.15.3",
     "vue-class-component": "^7.2.3"
   },
   "description": "blog for zeal"
