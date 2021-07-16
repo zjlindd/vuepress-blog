@@ -2,7 +2,7 @@
     <div>
         <el-divider></el-divider>
         <div class="content">
-            <p>赞赏是就是最好的支持, 如果对你有帮助那就支持一下吧!</p>
+            <p>赞赏是就是最好的支持, 如果对你有帮助那就请支持一下吧!</p>
         </div>
         <div class="flex">
             <div class="pay">
@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    
+
 </template>
 
 <script>
