@@ -1,7 +1,7 @@
 ---
 title: HTTP
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/nature
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625189735137-97609bf0-7ca4-4201-80a4-0003d27267b1.png
 tags:
  - HTTP
 categories:

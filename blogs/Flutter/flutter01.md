@@ -1,15 +1,12 @@
 ---
 title: Flutter
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/nature
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190524687-a6913d41-74b8-4bb4-88dd-93a285393117.png
 tags:
  - Flutter
 categories:
  - Flutter
 ---
-<template>
-    <my-money></my-money>
-</template>
 <template>
     <div>
         <img src="https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190524687-a6913d41-74b8-4bb4-88dd-93a285393117.png" referrerpolicy="no-referrer">

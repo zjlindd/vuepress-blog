@@ -1,7 +1,7 @@
 ---
 title: TypeScript 入门
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/transport
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625189047721-b7eecc41-6a2b-47d3-8aea-1cb05cdeca5e.png
 tags:
  - TypeScript
 categories:

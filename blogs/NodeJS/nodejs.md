@@ -1,7 +1,7 @@
 ---
 title: NodeJS
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/transport
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625189439077-408d75b8-ec74-4920-b785-17c51579868e.png
 tags:
  - NodeJS
 categories:

@@ -1,7 +1,7 @@
 ---
 title: 微信小程序云开发
 date: 2021-7-17
-cover: http://lorempixel.com/400/200/nature
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625188392840-f2d4b7f9-cc10-4148-a142-7018632ed15d.png
 tags:
  - 微信小程序
 categories:

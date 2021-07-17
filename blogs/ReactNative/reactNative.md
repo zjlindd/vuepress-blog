@@ -1,7 +1,7 @@
 ---
 title: ReactNative 成神之路
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/city
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190444013-ef9cfceb-5b9a-4be6-8856-ef79d693e4d9.png
 tags:
  - ReactNative
 categories:

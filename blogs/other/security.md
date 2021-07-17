@@ -1,7 +1,7 @@
 ---
 title: 前端安全
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190875699-fed66324-98eb-4add-aa91-e2fe87c25680.png
 tags:
  - 前端安全
 categories:

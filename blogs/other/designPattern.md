@@ -1,7 +1,7 @@
 ---
 title: 设计模式
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/fashion
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625191252870-0f6c099f-03d4-40e6-9b67-72b07a308e16.png
 tags:
  - 设计模式
 categories:

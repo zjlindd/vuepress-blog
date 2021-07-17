@@ -1,7 +1,7 @@
 ---
 title: 算法及数据结构
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/nightlife
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190688751-f3090c3a-484a-49f2-84e5-1d6961e5c22f.png
 tags:
  - 算法及数据结构
 categories:

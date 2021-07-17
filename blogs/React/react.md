@@ -1,7 +1,7 @@
 ---
 title: React 成神之路
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/abstract
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625188717536-a792cfc3-47c5-451a-804f-ddeb026e5aa4.png
 tags:
  - React
 categories:

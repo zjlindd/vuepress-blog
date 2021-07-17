@@ -1,7 +1,7 @@
 ---
 title: Webpack4 入门到精通
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/food
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625188642010-af3660f2-7dc4-4845-a41b-aff78dba44a7.png
 tags:
  - Webpack4
 categories:

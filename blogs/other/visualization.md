@@ -1,7 +1,7 @@
 ---
 title: 前端可视化
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/cats
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625189966620-82d8d70e-e9ab-45ce-9497-8aa1a9b4ea87.png
 tags:
  - 前端可视化
 categories:

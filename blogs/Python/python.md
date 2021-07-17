@@ -1,7 +1,7 @@
 ---
 title: python 成神之路
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/business
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625190829401-c0eb1bc9-1be8-4030-97ad-de833b620409.png
 tags:
  - python
 categories:

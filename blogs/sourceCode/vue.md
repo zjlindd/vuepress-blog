@@ -1,7 +1,7 @@
 ---
 title: vue 源码分析
 date: 2021-7-3
-cover: http://lorempixel.com/400/200/nature
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625189309237-fd4df29c-46b6-4dfa-96dc-1dd259cd8260.png
 tags:
 - vue
 categories:

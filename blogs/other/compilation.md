@@ -1,7 +1,7 @@
 ---
 title: 计算机编译原理+操作系统
 date: 2021-6-30
-cover: http://lorempixel.com/400/200/transport
+cover: https://cdn.nlark.com/yuque/0/2021/png/2899468/1625191171489-dbea0939-c1c1-4463-965b-b572a545a675.png
 tags:
  - 计算机编译原理+操作系统
 categories:
